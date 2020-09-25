@@ -1,11 +1,14 @@
-# practica 6
+# Practica 7
+- Tomar como base la práctica anterior
+- Hacer un despliegue con Jenkins o GitLab Auto DevOps donde considere las fases de:
+- Prueba unitaria (o de sistema)
+- Revisión de estándares de código
+- Revisión de calidad de código (análisis)
+- Construcción de artefactos
+- Entrega de los artefactos en un repositorio
+- El último commit debe estar atado a un log GitLab o Jenkins donde se muestre el éxito de todos los anteriores.
+- Incluir en el readme el acceso al repositorio de artefactos, donde pueda descargarse el último.
 
-- Tomar como base la práctica anterior (crear rama feature y al final merge a develop/master).
-- Según el lenguaje seleccionado, integrar una herramienta para realizar las pruebas unitarias de la menos una clase.
-- Configurar Sonarqube para que ejecute las pruebas y que calcule la cobertura de pruebas unitarias.
-- Presentar en un video corto (1 minuto máximo) la ejecución de Sonarqube en donde se evidencie la ejecución y reporte con la cobertura incluida.
-# video
-- https://drive.google.com/file/d/1tTfr4Qi7_f-ljqry0K8kB6z0GE0qvVuy/view
 # Cliente
 - Es una aplicación hecha en python para consumir los servicios del cliente como agregar, consultar pedido.
 
