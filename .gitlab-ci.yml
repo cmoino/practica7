@@ -9,7 +9,7 @@ build:
     - pip install -r requirements.txt
   artifacts:
     paths:
-      - practica6/
+      - practicaU/
 test:
    image: python:3.8.5
    stage: test
