@@ -6,7 +6,7 @@ build:
   stage: build
   script:
     - echo "building"
-    - pip install -r requirements.txt -practica6/
+    - pip install -r requirements.txt -t practica6/
   artifacts:
     paths:
       - practica6/
