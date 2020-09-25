@@ -1,0 +1,19 @@
+stages:
+  - build
+  - test
+build:
+  image: python:3.8.5
+  stage: build
+  script:
+    - echo "building"
+    - pip install -r requirements.txt -practica6/
+  artifacts:
+    paths:
+      - practica6/
+test:
+   image: python:3.8.5
+   stage: test
+   script:
+    - echo "testing"
+    - pip install -r requirements.txt
+    - pytest
